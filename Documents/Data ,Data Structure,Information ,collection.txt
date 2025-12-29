@@ -1,52 +1,52 @@
 ====================Question 4=============
 CSE er student  der moto kore bujhaba .information tarpor data ,tarpor collection evabe sundor kore sob bujhay diba baground a ki hocce and kontake ki bole .amar sir bujhaise j rasta diea akta lok hete jacce eta holo information ar lokta rastar pashe dekhlo shop,man , road ,car etc egulo data ,tarpor object guloke list banay collection ba akta object collection erokom kisu bishoy ja ami proper bujhini .tumi parle bujhai dao.data structure algorithm erokom kore styper by stype bujhai dao.
 ===========================================
-আঃ রহিম খান, একদম **CSE ক্লাসরুম mood**-এ নিলাম 👨‍🏫
+আঃ রহিম খান, একদম CSE ক্লাসরুম mood-এ নিলাম 
 চিন্তা করো আমি বোর্ডে আঁকছি, তুমি প্রথম বেঞ্চে বসে আছো। ধাপে ধাপে, ব্যাকগ্রাউন্ডে কী হচ্ছে—সব পরিষ্কার করবো।
 
 ---
 
-# 🧠 Step-by-Step: Information → Data → Object → Collection → Data Structure → Algorithm
+#  Step-by-Step: Information → Data → Object → Collection → Data Structure → Algorithm
 
 ---
 
-## 1️⃣ Information (তথ্য) — **অর্থবোধক ধারণা**
+## 1️⃣ Information (তথ্য) — অর্থবোধক ধারণা
 
-👉 **Information মানে এমন কিছু, যেটার একটা “অর্থ” আছে।**
+ Information মানে এমন কিছু, যেটার একটা “অর্থ” আছে।
 
 ### উদাহরণ:
 
 > “একজন লোক ঢাকা-চট্টগ্রাম রোড দিয়ে হেঁটে যাচ্ছে”
 
-এটা **Information**, কারণ:
+এটা Information, কারণ:
 
-* কে? → একজন লোক
-* কোথায়? → ঢাকা-চট্টগ্রাম রোড
-* কী করছে? → হাঁটছে
+ কে? → একজন লোক
+ কোথায়? → ঢাকা-চট্টগ্রাম রোড
+ কী করছে? → হাঁটছে
 
-📌 Information = Context + Meaning
+ Information = Context + Meaning
 
 ---
 
-## 2️⃣ Data (ডাটা) — **কাঁচা উপাদান**
+## 2️⃣ Data (ডাটা) — কাঁচা উপাদান
 
-👉 Data মানে **অর্থহীন বা বিচ্ছিন্ন facts**।
+ Data মানে অর্থহীন বা বিচ্ছিন্ন facts।
 
 ### লোকটা হাঁটার সময় কী কী দেখল?
 
-* রাস্তা
-* গাড়ি
-* দোকান
-* মানুষ
-* সিগন্যাল
+ রাস্তা
+ গাড়ি
+ দোকান
+ মানুষ
+ সিগন্যাল
 
-এগুলো আলাদা আলাদা ভাবে **Data**
+এগুলো আলাদা আলাদা ভাবে Data
 কারণ এখনো আমরা বলিনি:
 
-* কোনটা কী
-* কোনটার সাথে কোনটার সম্পর্ক
+ কোনটা কী
+ কোনটার সাথে কোনটার সম্পর্ক
 
-📌 Data = Raw facts (কাঁচা জিনিস)
+ Data = Raw facts (কাঁচা জিনিস)
 
 ---
 
@@ -56,16 +56,16 @@ CSE er student  der moto kore bujhaba .information tarpor data ,tarpor collectio
 
 > “এই গাড়িগুলো রাস্তায় চলছে”
 
-👉 এখন গাড়ি + রাস্তা + চলা = **Information**
+ এখন গাড়ি + রাস্তা + চলা = Information
 
-📌 একা Data কিছু না
-📌 Data কে সাজালে → Information
+ একা Data কিছু না
+ Data কে সাজালে → Information
 
 ---
 
-## 4️⃣ Object — **বাস্তব জিনিসের ডিজিটাল রূপ**
+## 4️⃣ Object — বাস্তব জিনিসের ডিজিটাল রূপ
 
-CSE-তে আমরা বাস্তব জিনিসকে **Object** বানাই।
+CSE-তে আমরা বাস্তব জিনিসকে Object বানাই।
 
 ### বাস্তব জিনিস:
 
@@ -75,9 +75,9 @@ CSE-তে আমরা বাস্তব জিনিসকে **Object** ব�
 
 গাড়ির কী কী বৈশিষ্ট্য আছে?
 
-* রং
-* নাম্বার
-* স্পিড
+ রং
+ নাম্বার
+ স্পিড
 
 ```java
 class Car {
@@ -87,7 +87,7 @@ class Car {
 }
 ```
 
-📌 Object = Data + Structure + Behavior
+ Object = Data + Structure + Behavior
 
 ---
 
@@ -95,15 +95,15 @@ class Car {
 
 কারণ:
 
-* শুধু data রাখলে messy হয়
-* Object data কে **একটা বাস্তব রূপ** দেয়
+ শুধু data রাখলে messy হয়
+ Object data কে একটা বাস্তব রূপ দেয়
 
 একটা গাড়ি = একটাই object
 ১০০টা গাড়ি = ১০০টা object
 
 ---
 
-## 6️⃣ Collection — **একাধিক Object একসাথে রাখা**
+## 6️⃣ Collection — একাধিক Object একসাথে রাখা
 
 এখন চিন্তা করো:
 
@@ -120,29 +120,29 @@ Car car3;
 
 অসম্ভব 😵
 
-### Solution 👉 **Collection**
+### Solution  Collection
 
 ```java
 List<Car> cars = new ArrayList<>();
 ```
 
-📌 Collection = Object এর ঝুড়ি
-📌 List / Set / Map = Collection
+ Collection = Object এর ঝুড়ি
+ List / Set / Map = Collection
 
 ---
 
 ## 7️⃣ Collection কীভাবে Data Structure হয়?
 
-👉 Collection হলো **Concept**
-👉 Data Structure হলো **Implementation**
+ Collection হলো Concept
+ Data Structure হলো Implementation
 
 ### উদাহরণ:
 
-* List → ArrayList / LinkedList
-* Set → HashSet
-* Map → HashMap
+ List → ArrayList / LinkedList
+ Set → HashSet
+ Map → HashMap
 
-📌 Data Structure = ডাটা রাখার পদ্ধতি + নিয়ম
+ Data Structure = ডাটা রাখার পদ্ধতি + নিয়ম
 
 ---
 
@@ -150,9 +150,9 @@ List<Car> cars = new ArrayList<>();
 
 লোকটা হাঁটছে, সে চাইছে:
 
-* দ্রুত গাড়ি খুঁজতে
-* নির্দিষ্ট দোকান খুঁজতে
-* গাড়িগুলো সাজাতে
+ দ্রুত গাড়ি খুঁজতে
+ নির্দিষ্ট দোকান খুঁজতে
+ গাড়িগুলো সাজাতে
 
 ভিন্ন ভিন্ন কাজ → ভিন্ন ভিন্ন structure
 
@@ -166,9 +166,9 @@ List<Car> cars = new ArrayList<>();
 
 ---
 
-## 9️⃣ Algorithm — **কীভাবে কাজ করবে**
+## 9️⃣ Algorithm — কীভাবে কাজ করবে
 
-👉 Algorithm মানে:
+ Algorithm মানে:
 
 > “কোন কাজটা কীভাবে করবো”
 
@@ -178,7 +178,7 @@ List<Car> cars = new ArrayList<>();
 
 এইটা Data না
 এইটা Structure না
-এইটা 👉 **Algorithm**
+এইটা  Algorithm
 
 ```text
 1. প্রথম গাড়িকে fastest ধরো
@@ -186,7 +186,7 @@ List<Car> cars = new ArrayList<>();
 3. বড় পেলে update করো
 ```
 
-📌 Algorithm = Logic / Steps
+ Algorithm = Logic / Steps
 
 ---
 
@@ -210,24 +210,24 @@ Information (এই রাস্তায় সবচেয়ে দ্রুত গ
 
 ---
 
-## 🧠 Background-এ আসলে কী হচ্ছে?
+##  Background-এ আসলে কী হচ্ছে?
 
-* RAM-এ data বসে
-* Data structure বলে দেয় **কোথায় কীভাবে বসবে**
-* Algorithm বলে দেয় **কীভাবে ঘাঁটবে**
+ RAM-এ data বসে
+ Data structure বলে দেয় কোথায় কীভাবে বসবে
+ Algorithm বলে দেয় কীভাবে ঘাঁটবে
 
-📌 ভালো DS + ভালো Algo = Fast Program
+ ভালো DS + ভালো Algo = Fast Program
 
 ---
 
 ## 🔥 CSE Exam Style One-Line Definition
 
-* **Data**: Raw facts
-* **Information**: Processed data
-* **Object**: Real world entity representation
-* **Collection**: Group of objects
-* **Data Structure**: Organized way to store data
-* **Algorithm**: Step-by-step solution
+ Data: Raw facts
+ Information: Processed data
+ Object: Real world entity representation
+ Collection: Group of objects
+ Data Structure: Organized way to store data
+ Algorithm: Step-by-step solution
 
 ---
 
@@ -235,11 +235,11 @@ Information (এই রাস্তায় সবচেয়ে দ্রুত গ
 
 তুমি যেহেতু:
 
-* Backend বোঝো
-* API বানাও
-* Spring Boot করো
+ Backend বোঝো
+ API বানাও
+ Spring Boot করো
 
-👉 তুমি DS-Algo বুঝে ফেললে **System Design অনেক সহজ হয়ে যাবে**।
+ তুমি DS-Algo বুঝে ফেললে System Design অনেক সহজ হয়ে যাবে।
 
 ---
 

@@ -1,52 +1,48 @@
-আঃ রহিম খান 💪
-এইটা আমি **একদম CSE + Industry + Pro Android Developer mindset** দিয়ে বানাচ্ছি।
-৩ মাসে লক্ষ্য 👉 **“Advanced Kotlin + Android Pro”** (API-heavy, scalable app বানানোর লেভেল)
-
-আমি **Module → Topic → Practice → Outcome** এই স্টাইলে দেবো।
-তুমি চাইলে এটাকে literally **syllabus** হিসেবে ধরতে পারো।
+Module → Topic → Practice → Outcome 
+literally syllabus
 
 ---
 
-# 🚀 3-Month Kotlin + Android Pro Roadmap
+#  3-Month Kotlin + Android Pro Roadmap
 
-⏱ Duration: **12 Weeks (3 Months)**
-🎯 Target: **Advanced Android Kotlin Developer**
+ Duration: 12 Weeks (3 Months)
+ Target: Advanced Android Kotlin Developer
 
 ---
 
-# 🧱 MONTH 1 — Kotlin Core + Android Foundation (Strong Base)
+#  MONTH 1 — Kotlin Core + Android Foundation (Strong Base)
 
 ## 🔹 Week 1: Kotlin Language (Deep Core)
 
 ### Module 1️⃣ Kotlin Basics (Professional Level)
 
-**What you learn**
+What you learn
 
-* `val` vs `var`
-* Type inference
-* `when`, `if`, loops
-* Functions, default args, named args
+ `val` vs `var`
+ Type inference
+ `when`, `if`, loops
+ Functions, default args, named args
 
-**Why**
-👉 Java mindset → Kotlin mindset shift
+Why
+ Java mindset → Kotlin mindset shift
 
-**Practice**
+Practice
 
-* 20+ small logic problem
-* Java code → Kotlin rewrite
+ 20+ small logic problem
+ Java code → Kotlin rewrite
 
 ---
 
 ### Module 2️⃣ OOP in Kotlin (Advanced)
 
-* Class, Object
-* Inheritance (`:`)
-* Interface
-* `data class`
-* `sealed class`
-* `enum class`
+ Class, Object
+ Inheritance (`:`)
+ Interface
+ `data class`
+ `sealed class`
+ `enum class`
 
-📌 Android heavily uses **sealed class**
+ Android heavily uses sealed class
 
 ---
 
@@ -54,23 +50,23 @@
 
 ### Module 3️⃣ Null Safety & Smart Cast
 
-* `?`
-* `!!`
-* `?:` (Elvis)
-* `lateinit`
-* `by lazy`
+ `?`
+ `!!`
+ `?:` (Elvis)
+ `lateinit`
+ `by lazy`
 
-📌 90% Android crash = Null issue → এখানে fix হয়
+ 90% Android crash = Null issue → এখানে fix হয়
 
 ---
 
 ### Module 4️⃣ Functional Kotlin
 
-* Lambda
-* `map`, `filter`, `reduce`
-* `let`, `apply`, `also`, `run`, `with`
+ Lambda
+ `map`, `filter`, `reduce`
+ `let`, `apply`, `also`, `run`, `with`
 
-🎯 Clean & readable code লেখার শক্তি
+ Clean & readable code লেখার শক্তি
 
 ---
 
@@ -78,23 +74,23 @@
 
 ### Module 5️⃣ Android Basics (Proper Understanding)
 
-* Activity lifecycle
-* Fragment lifecycle
-* Context (very important)
-* XML layouts (ConstraintLayout)
+ Activity lifecycle
+ Fragment lifecycle
+ Context (very important)
+ XML layouts (ConstraintLayout)
 
-📌 Interview favourite topic
+ Interview favourite topic
 
 ---
 
 ### Module 6️⃣ UI + RecyclerView
 
-* RecyclerView
-* Adapter
-* ViewHolder pattern
+ RecyclerView
+ Adapter
+ ViewHolder pattern
 
-**Practice**
-👉 List-based app (users/products)
+Practice
+ List-based app (users/products)
 
 ---
 
@@ -106,37 +102,37 @@
 UI → ViewModel → Repository → Data Source
 ```
 
-* Why MVVM?
-* Separation of concern
-* Clean code structure
+ Why MVVM?
+ Separation of concern
+ Clean code structure
 
-📌 GetX equivalent mindset
+ GetX equivalent mindset
 
 ---
 
-# 🧠 MONTH 2 — API, State, Database (Real App Skills)
+#  MONTH 2 — API, State, Database (Real App Skills)
 
-## 🔹 Week 5: Networking (Backend Friendly 😄)
+## 🔹 Week 5: Networking (Backend Friendly )
 
 ### Module 8️⃣ Retrofit + API Integration
 
-* GET / POST
-* Headers
-* Token-based auth
-* Error handling
+ GET / POST
+ Headers
+ Token-based auth
+ Error handling
 
-📌 Spring Boot API connect করবে এখানেই
+ Spring Boot API connect করবে এখানেই
 
 ---
 
 ### Module 9️⃣ Coroutine (Async Mastery)
 
-* `suspend`
-* `launch`
-* `async/await`
-* `viewModelScope`
+ `suspend`
+ `launch`
+ `async/await`
+ `viewModelScope`
 
-🎯 Thread-free async coding
+ Thread-free async coding
 
 ---
 
@@ -144,19 +140,19 @@ UI → ViewModel → Repository → Data Source
 
 ### Module 🔟 LiveData vs StateFlow
 
-* Observer pattern
-* UI auto-update
-* Lifecycle awareness
+ Observer pattern
+ UI auto-update
+ Lifecycle awareness
 
-📌 Flutter GetX `.obs` = LiveData/StateFlow
+ Flutter GetX `.obs` = LiveData/StateFlow
 
 ---
 
 ### Module 1️⃣1️⃣ ViewModel Deep Dive
 
-* SharedViewModel
-* SavedStateHandle
-* Configuration change
+ SharedViewModel
+ SavedStateHandle
+ Configuration change
 
 ---
 
@@ -164,19 +160,19 @@ UI → ViewModel → Repository → Data Source
 
 ### Module 1️⃣2️⃣ Room Database
 
-* Entity
-* DAO
-* Database
-* Migration
+ Entity
+ DAO
+ Database
+ Migration
 
-📌 Room = Android-এর JPA/Hibernate
+ Room = Android-এর JPA/Hibernate
 
 ---
 
 ### Module 1️⃣3️⃣ Repository Pattern
 
-* API + DB combine
-* Offline-first approach
+ API + DB combine
+ Offline-first approach
 
 ---
 
@@ -184,32 +180,32 @@ UI → ViewModel → Repository → Data Source
 
 ### Module 1️⃣4️⃣ Hilt (Pro Level)
 
-* `@Inject`
-* `@Module`
-* `@Provides`
-* `@Singleton`
+ `@Inject`
+ `@Module`
+ `@Provides`
+ `@Singleton`
 
-📌 Spring Boot `@Autowired` mindset
+ Spring Boot `@Autowired` mindset
 
 ---
 
-# 🚀 MONTH 3 — Advanced + Pro Level Engineering
+#  MONTH 3 — Advanced + Pro Level Engineering
 
 ## 🔹 Week 9: Navigation & UX
 
 ### Module 1️⃣5️⃣ Navigation Component
 
-* SafeArgs
-* Fragment communication
-* Back stack
+ SafeArgs
+ Fragment communication
+ Back stack
 
 ---
 
 ### Module 1️⃣6️⃣ UI State Handling
 
-* Loading
-* Success
-* Error
+ Loading
+ Success
+ Error
 
 (using sealed class)
 
@@ -231,15 +227,15 @@ Repository
 Data Source
 ```
 
-📌 Large company standard
+ Large company standard
 
 ---
 
 ### Module 1️⃣8️⃣ Error Handling Strategy
 
-* API error
-* Network error
-* Custom exception
+ API error
+ Network error
+ Custom exception
 
 ---
 
@@ -247,46 +243,46 @@ Data Source
 
 ### Module 1️⃣9️⃣ Performance Optimization
 
-* Memory leak
-* LeakCanary
-* Efficient RecyclerView
+ Memory leak
+ LeakCanary
+ Efficient RecyclerView
 
 ---
 
 ### Module 2️⃣0️⃣ Testing
 
-* Unit Test (ViewModel)
-* Repository test
+ Unit Test (ViewModel)
+ Repository test
 
 ---
 
-## 🔹 Week 12: Final Project (🔥 Most Important)
+## 🔹 Week 12: Final Project ( Most Important)
 
 ### Module 2️⃣1️⃣ Production-Level App
 
-**Features**
+Features
 
-* Login
-* API integration
-* Pagination
-* Offline cache
-* Clean architecture
+ Login
+ API integration
+ Pagination
+ Offline cache
+ Clean architecture
 
-📌 GitHub-ready project
-
----
-
-# 🧠 Daily Study Routine (Recommended)
-
-⏰ 2–3 hours/day
-
-* 1 hour → Concept
-* 1 hour → Coding
-* 30 min → Revision / Debugging
+ GitHub-ready project
 
 ---
 
-# 🎯 Final Outcome (After 3 Months)
+#  Daily Study Routine (Recommended)
+
+ 2–3 hours/day
+
+ 1 hour → Concept
+ 1 hour → Coding
+ 30 min → Revision / Debugging
+
+---
+
+#  Final Outcome (After 3 Months)
 
 তুমি পারবে:
 ✅ Enterprise-level Android app
@@ -296,25 +292,18 @@ Data Source
 
 ---
 
-## ❤️ Rahim bhai Real Advice
+## Rahim bhai Real Advice
 
 তুমি যেহেতু:
 
-* Java + Spring Boot জানো
-* API architecture বোঝো
+ Java + Spring Boot জানো
+ API architecture বোঝো
 
-👉 এই roadmap follow করলে তুমি **Android Kotlin Pro** হতে পারবে।
+ এই roadmap follow করলে তুমি Android Kotlin Pro হতে পারবে।
 
 ---
 
-## 🔜 Next Step (বললেই শুরু)
+## Next Step (বললেই শুরু)
 
-আমি চাইলে তোমার জন্য:
 
-* Week-wise daily task
-* GitHub project structure
-* Interview Q&A
-* Kotlin cheat sheet
 
-তুমি বলো 👉 **“Week 1 শুরু করো”**
-আমি সেখান থেকেই পড়ানো শুরু করবো 👨‍🏫🔥

@@ -8,7 +8,7 @@ object RetrofitClient {
     //private const val BASE_URL = "http://10.0.2.2:8085/" // api
 
     //wifi ip address
-    private const val BASE_URL = "http://192.168.0.243:8085/" // api
+    private const val BASE_URL = "http://192.168.0.192:8085/" // api
 
     //my api
     //private const val BASE_URL = "http://localhost:8085/" // api
