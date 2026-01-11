@@ -4,6 +4,10 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.ksp)
+    id ("kotlin-parcelize")
+    // <-- Safe Args plugin
+    id("androidx.navigation.safeargs.kotlin")
+
 }
 
 android {
@@ -93,4 +97,7 @@ dependencies {
     // Glide
     implementation("com.github.bumptech.glide:glide:4.16.0")
     ksp("com.github.bumptech.glide:compiler:4.16.0")
+
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0")
+
 }

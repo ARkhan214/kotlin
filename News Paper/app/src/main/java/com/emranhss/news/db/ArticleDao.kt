@@ -12,7 +12,10 @@ import com.emranhss.news.models.Article
 interface ArticleDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun upsert(article: Article): Long
+    suspend fun insert(article: Article): Long
+
+    @Query("SELECT EXISTS(SELECT * FROM articles WHERE url = :url)")
+    suspend fun isArticleSaved(url: String?): Boolean
 
     @Query("SELECT * FROM articles")
     fun getAllArticles(): LiveData<List<Article>>

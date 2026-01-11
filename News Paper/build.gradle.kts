@@ -3,4 +3,16 @@ plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.ksp) apply false
+
+}
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Safe Args classpath goes here, project-level only
+        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:2.9.6")
+    }
 }

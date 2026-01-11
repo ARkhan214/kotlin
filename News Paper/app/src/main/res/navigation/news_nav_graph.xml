@@ -43,5 +43,12 @@
     <fragment
         android:id="@+id/articaleNewsFragment"
         android:name="com.emranhss.news.ui.fragments.ArticaleNewsFragment"
-        android:label="ArticaleNewsFragment" />
+        android:label="ArticaleNewsFragment" >
+        <argument
+            android:name="article"
+            app:argType="com.emranhss.news.models.Article" />
+        <action
+            android:id="@+id/action_articaleNewsFragment_to_breakingNewsFragment"
+            app:destination="@id/breakingNewsFragment" />
+    </fragment>
 </navigation>

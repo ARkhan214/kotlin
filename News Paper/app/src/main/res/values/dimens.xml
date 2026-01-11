@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Border / Divider -->
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+
+    <!-- Small spacing -->
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+
+    <!-- Default spacing -->
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+
+    <!-- Medium spacing -->
+    <dimen name="dp_20">20dp</dimen>
     <dimen name="dp_24">24dp</dimen>
-    <dimen name="dp_80">80dp</dimen>
+
+    <!-- Large spacing -->
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
     <dimen name="dp_50">50dp</dimen>
+
+    <!-- Extra large -->
+    <dimen name="dp_64">64dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+
+    <!-- ========== Corner Radius ========== -->
+    <dimen name="radius_4">4dp</dimen>
+    <dimen name="radius_8">8dp</dimen>
+    <dimen name="radius_12">12dp</dimen>
+    <dimen name="radius_16">16dp</dimen>
+    <dimen name="radius_24">24dp</dimen>
+
+    <!-- ========== Elevation (Shadow) ========== -->
+    <dimen name="elevation_2">2dp</dimen>
+    <dimen name="elevation_4">4dp</dimen>
+    <dimen name="elevation_8">8dp</dimen>
+
+    <!-- ========== Icon Sizes ========== -->
+    <dimen name="icon_16">16dp</dimen>
+    <dimen name="icon_24">24dp</dimen>
+    <dimen name="icon_32">32dp</dimen>
+    <dimen name="icon_48">48dp</dimen>
+
+    <!-- ========== Text Sizes (sp) ========== -->
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+
+
 </resources>

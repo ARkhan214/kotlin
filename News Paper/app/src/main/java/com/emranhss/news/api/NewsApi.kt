@@ -24,6 +24,12 @@ interface NewsApi {
         countryCode: String,
         @Query("page")
         pageNumber: Int=1,
+        @Query("from")
+        fromDate: String = "2026-01-03",
+        @Query("to")
+        toDate: String = "2026-01-03",
+        @Query("sortBy")
+        sortBy: String = "popularity",
         @Query("apiKey")
         apiKey: String = API_KEY
     ): Response<NewsResponse>
