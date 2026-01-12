@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/openWeb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Open Web View"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/openCamera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        app:layout_constraintTop_toBottomOf="@id/openWeb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/openPhoneCall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Open Phone Call"
+        app:layout_constraintTop_toBottomOf="@id/openCamera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/openPhoneCall"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/openShear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Share Text with Others"
+        app:layout_constraintTop_toBottomOf="@id/editTextText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/clear_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Clear text"
+        app:layout_constraintTop_toBottomOf="@id/openShear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Neutral / Background Colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_500">#9E9E9E</color>
+
+    <!-- Primary Colors -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_700">#018786</color>
+    <color name="green_600">#388E3C</color>
+    <color name="orange_600">#FB8C00</color>
+    <color name="blue_500">#1E88E5</color>
+
+    <!-- Accent / Highlights -->
+    <color name="yellow_500">#FFEB3B</color>
+    <color name="red_600">#E53935</color>
+    <color name="cyan_400">#00BCD4</color>
+
+
+</resources>

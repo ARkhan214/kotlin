@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Red -->
+    <color name="red">#F81313</color>
+    <color name="deep_red">#CC0C0C</color>
+    <color name="soft_red">#EF5350</color>
+
+    <!-- Green -->
+    <color name="green">#2E7D32</color>        <!-- Success -->
+    <color name="light_green">#66BB6A</color>  <!-- Positive -->
+    <color name="dark_green">#1B5E20</color>
+
+    <!-- Blue -->
+    <color name="blue">#1976D2</color>         <!-- Primary -->
+    <color name="light_blue">#64B5F6</color>   <!-- Info -->
+    <color name="dark_blue">#0D47A1</color>
+
+    <!-- Yellow / Orange -->
+    <color name="yellow">#FBC02D</color>
+    <color name="orange">#FB8C00</color>
+
+    <!-- Gray -->
+    <color name="gray_light">#EEEEEE</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_dark">#616161</color>
+
+    <!-- Primary / Accent -->
+    <color name="primary_red">#CC0C0C</color>   <!-- Breaking, Highlight -->
+    <color name="secondary_red">#F81313</color> <!-- Buttons, Tags -->
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>   <!-- Main text -->
+    <color name="text_secondary">#757575</color> <!-- Subtitle / Hint -->
+    <color name="text_hint">#9E9E9E</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_light">#F9F9F9</color>
+    <color name="bg_card">#FFFFFF</color>
+
+    <!-- Borders / Divider -->
+    <color name="divider">#E0E0E0</color>
+    <color name="border_light">#DDDDDD</color>
+
+    <!-- Status Colors -->
+    <color name="success">#2E7D32</color>  <!-- Green -->
+    <color name="warning">#F9A825</color>  <!-- Amber -->
+    <color name="error">#D32F2F</color>    <!-- Error red -->
+
+</resources>
