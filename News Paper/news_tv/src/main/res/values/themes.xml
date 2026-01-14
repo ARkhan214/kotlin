@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Gamma" parent="@style/Theme.Leanback" />
+
+    <!-- Base TV theme that inherits from AppCompat -->
+    <style name="Theme.TV" parent="Theme.AppCompat.NoActionBar">
+        <!-- TV-specific theme customizations -->
+        <item name="android:windowBackground">@color/tv_background</item>
+        <item name="android:colorPrimary">@color/white</item>
+        <!-- Add other TV-specific attributes -->
+    </style>
+
+</resources>
